@@ -1127,6 +1127,10 @@
 				interrupts = <GIC_SPI 37 IRQ_TYPE_LEVEL_HIGH>;
 				clocks = <&clks IMX7D_I2C3_ROOT_CLK>;
 				status = "disabled";
+				tpm {
+        				compatible = "infineon,slb9645tt";
+	        			reg = <0x20>;
+ 				};
 			};
 
 			i2c4: i2c@30a50000 {

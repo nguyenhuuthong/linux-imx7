@@ -3673,8 +3673,8 @@ void fsg_config_from_params(struct fsg_config *cfg,
 	}
 
 	/* Let MSF use defaults */
-	cfg->vendor_name = NULL;
-	cfg->product_name = NULL;
+	cfg->vendor_name = "Virtium";
+	cfg->product_name = "Iot";
 
 	cfg->ops = NULL;
 	cfg->private_data = NULL;
