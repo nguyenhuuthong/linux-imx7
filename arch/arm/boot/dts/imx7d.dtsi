@@ -1126,6 +1126,7 @@
 				reg = <0x30a40000 0x10000>;
 				interrupts = <GIC_SPI 37 IRQ_TYPE_LEVEL_HIGH>;
 				clocks = <&clks IMX7D_I2C3_ROOT_CLK>;
+				clock-frequency = <400000>;
 				status = "disabled";
 				tpm {
         				compatible = "infineon,slb9645tt";
