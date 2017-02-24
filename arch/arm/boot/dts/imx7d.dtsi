@@ -1121,7 +1121,7 @@
         				compatible = "infineon,slb9645tt";
 	        			reg = <0x20>;
  				};
-			};asfa
+			};
 
 			i2c3: i2c@30a40000 {
 				#address-cells = <1>;
@@ -1136,7 +1136,7 @@
         				compatible = "infineon,slb9645tt";
 	        			reg = <0x20>;
  				};
-			};asfa
+			};
 
 			i2c4: i2c@30a50000 {
 				#address-cells = <1>;
@@ -1150,7 +1150,7 @@
         				compatible = "infineon,slb9645tt";
 	        			reg = <0x20>;
  				};
-			};frg
+			};
 
 			uart4: serial@30a60000 {
 				compatible = "fsl,imx7d-uart",
